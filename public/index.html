@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>图书馆管理系统</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="wraper" id="wraper">
+    <header class="head">
+        <div class="center">
+            <div class="logo left">
+                <img src="images/logo.jpg" alt="">
+            </div>
+            <div class="navigation left" id="navigation">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">海洋专题</a></li>
+                    <li><a href="#">少儿专题</a></li>
+                    <li><a href="#">资源中心</a></li>
+                    <li><a href="#">特色文献</a></li>
+                </ul>
+            </div>
+            <div class="login right">
+                <i class="login_icon"></i>
+                <a href="#">登录</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <!--header结束-->
+        <div class="search_area">
+            <div class="bookeack_max">
+                <img src="images/bookrack1.png" alt="">
+            </div>
+            <div class="search">
+                <div class="search_selected">
+                    <ul>
+                        <li><a href="#">全部</a></li>
+                        <li><a href="#">图书</a></li>
+                        <li><a href="#">期刊</a></li>
+                        <li><a href="#">会议论文</a></li>
+                        <li><a href="#">学位论文</a></li>
+                        <li><a href="#">音频</a></li>
+                        <li><a href="#">视频</a></li>
+                        <li><a href="#">图片</a></li>
+                        <li><a href="#">古籍</a></li>
+                        <li><a href="#">报刊</a></li>
+                        <li><a href="#">百科</a></li>
+                        <li><a href="#">更多</a></li>
+                    </ul>
+                </div><!--search_selected结束-->
+                <div class="serach_box">
+                    <a class="search_icon" href="#"><i></i></a>
+                    <input class="search_input" type="text" placeholder="输入你要搜索的内容">
+                    <div class="date">
+                        <p>日期</p>
+                        <a href="#" id="date_arrow" class="arrow_down"></a>
+                        <div name="date" id="date_list" class="select">
+                            <ul>
+                                <li>2019-06-13</li>
+                                <li>2019-06-13</li>
+                                <li>2019-06-13</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="search_btn">检&nbsp;&nbsp;索</button>
+                </div>
+            </div>
+            <div class="bookeack_mini">
+                <img src="images/bookrack2.png" alt="">
+            </div>
+        </div>
+        <!--seaech_box结束-->
+        <div class="banner" id="banner">
+            <div class="img_box">
+                <div class="banner_ocenan">
+                    <div class="left_img">
+                        <img src="images/banner1.png" alt="">
+                    </div>
+                    <div class="right_content">
+                        <div class="title">
+                            <h1>海洋专题</h1>
+                            <hr>
+                            <p>千图数字图书馆全新活动专题上线啦！</p>
+                        </div>
+                        <div class="enter_theme">
+                            <a href="#">进入专题<i>&gt;</i></a>
+                        </div>
+                        <div class="circle">
+                            <ul>
+                                <li><i></i></li>
+                                <li><i></i></li>
+                                <li><i></i></li>
+                                <li><i></i></li>
+                                <li><i></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <div class="banner_ocenan_bg">
+                <img src="images/banner2.png" alt="">
+            </div>
+            <div class="banner_ocenan">
+                <div class="left_img">
+                    <img src="images/banner1.png" alt="">
+                </div>
+                <div class="right_content">
+                    <div class="title">
+                        <h1>海洋专题</h1>
+                        <hr>
+                        <p>千图数字图书馆全新活动专题上线啦！</p>
+                    </div>
+                    <div class="enter_theme">
+                        <a href="#">进入专题<i>&gt;</i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--banner结束-->
+        <div class="content">
+            <div class="resource left">
+                <div class="title">
+                    <h1 class="left">资&nbsp;&nbsp;源</h1>
+                    <a href="#" class="right">更多&nbsp;&nbsp;&gt;</a>
+                </div>
+                <div class="books">
+                    <ul>
+                        <li>
+                            <div class="head">
+                                <i class="dic"></i>
+                                <h2>电子图书</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">超星电子书</a>
+                               <a href="#">方正电子书</a>
+                               <a href="#">点点电子书库</a>
+                               <a href="#">普陀海岛</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <i class="dic"></i>
+                                <h2>电子图书</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">超星电子书</a>
+                               <a href="#">方正电子书</a>
+                               <a href="#">点点电子书库</a>
+                               <a href="#">普陀海岛</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <i class="dic"></i>
+                                <h2>电子图书</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">超星电子书</a>
+                               <a href="#">方正电子书</a>
+                               <a href="#">点点电子书库</a>
+                               <a href="#">普陀海岛</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <i class="dic"></i>
+                                <h2>电子图书</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">超星电子书</a>
+                               <a href="#">方正电子书</a>
+                               <a href="#">点点电子书库</a>
+                               <a href="#">普陀海岛</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <i class="dic"></i>
+                                <h2>电子图书</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">超星电子书</a>
+                               <a href="#">方正电子书</a>
+                               <a href="#">点点电子书库</a>
+                               <a href="#">普陀海岛</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ocenan_subject left">
+                <div class="title">
+                    <h1 class="left">海洋专题</h1>
+                    <a href="#" class="right">更多&nbsp;&nbsp;&gt;</a>
+                </div>
+                <div class="books">
+                    <ul>
+                        <li>
+                            <div class="head">
+                                <h2>海洋微百科</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">海洋文化</a>
+                               <a href="#">海洋产业</a>
+                               <a href="#">海洋科学</a>
+                               <a href="#">海洋管理</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <h2>海洋微百科</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">海洋文化</a>
+                               <a href="#">海洋产业</a>
+                               <a href="#">海洋科学</a>
+                               <a href="#">海洋管理</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <h2>海洋微百科</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">海洋文化</a>
+                               <a href="#">海洋产业</a>
+                               <a href="#">海洋科学</a>
+                               <a href="#">海洋管理</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <h2>海洋微百科</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">海洋文化</a>
+                               <a href="#">海洋产业</a>
+                               <a href="#">海洋科学</a>
+                               <a href="#">海洋管理</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head">
+                                <h2>海洋微百科</h2>
+                                <a class="right_arrow">&gt;</a>
+                            </div>
+                            <div class="context">
+                               <a href="#">海洋文化</a>
+                               <a href="#">海洋产业</a>
+                               <a href="#">海洋科学</a>
+                               <a href="#">海洋管理</a>
+                               <a href="#">海洋文化</a>
+                               <a href="#">海洋产业</a>
+                               <a href="#">海洋科学</a>
+                               <a href="#">海洋管理</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service left">
+                <div class="title">
+                    <h1 class="left">服务</h1>
+                    <a href="#" class="right">更多&nbsp;&nbsp;&gt;</a>
+                </div>
+                <div class="books">
+                    <a href="#" class="refer">
+                        <i></i>
+                        <h4>网上咨询</h4>
+                    </a>
+                    <a href="#" class="appiontment mouseM" id="appiontment">
+                        <i></i>
+                        <h4>图书预约</h4>
+                    </a>
+                    <a href="#" class="borrow">
+                        <i></i>
+                        <h4>图书续借</h4>
+                    </a>
+                    <a href="#" class="internet">
+                        <i></i>
+                        <h4>网上展厅</h4>
+                    </a>
+                    <a href="#" class="learn">
+                        <i></i>
+                        <h4>学习中心</h4>
+                    </a>
+                    <a href="#" class="reading">
+                        <i></i>
+                        <h4>读者空间</h4>
+                    </a>
+                    <div class="service_qq">
+                       <p>Q&nbsp; Q：&nbsp;&nbsp;<b>123456789</b></p>
+                    </div>
+                    <div class="phone">
+                        <p>电话：&nbsp;&nbsp;<b>0586-123456</b></p>
+                    </div>
+                </div><!--books结束-->
+            </div>
+        </div><!--content结束-->
+        <div class="message_content">
+            <div class="message_title">
+                <h1>资讯</h1>
+            </div>
+            <div class="message_text">
+                <div class="message_box">
+                    <h2>联盟风采</h2>
+                    <ul>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>千图市图书馆“小小演说家”</li>
+                        <li><i></i>庆“六一”少儿系列活动</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>千图市图书馆“小小演说家”</li>
+                        <li><i></i>千图市图书馆“小小演说家”</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><a href="#">更多&nbsp;&nbsp;&gt;</a></li>
+                    </ul>
+                </div>
+                <div class="message_box">
+                    <h2>活动预告</h2>
+                    <ul>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>庆“六一”少儿系列活动</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><a href="#">更多&nbsp;&nbsp;&gt;</a></li>
+                    </ul>
+                </div>
+                <div class="message_box">
+                    <h2>讲座培训</h2>
+                    <ul>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>庆“六一”少儿系列活动</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><a href="#">更多&nbsp;&nbsp;&gt;</a></li>
+                    </ul>
+                </div>
+                <div class="message_box message_box_last">
+                    <h2>最新展览</h2>
+                    <ul>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>庆“六一”少儿系列活动</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>舟山市图书馆“小小演说家”</li>
+                        <li><i></i>十月份活动报告</li>
+                        <li><a href="#">更多&nbsp;&nbsp;&gt;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="center_box">
+                <p>首页 | 海洋专题 | 少儿专题 | 资源中心 | 特色文献</p>
+                <p>Copyright 2013-2015 &nbsp;千图科技数字图书馆 All Rights Reserved.备案xxxxxxxx</p>
+            </div>
+        </footer>
+    </div><!--container结束-->
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="javascript/index.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script> -->
+</body>
+</html>
